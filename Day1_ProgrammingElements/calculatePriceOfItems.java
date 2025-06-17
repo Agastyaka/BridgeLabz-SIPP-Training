@@ -1,5 +1,5 @@
 import java.util.*;
-public class calculatePriceOfItems {
+public class CalculatePriceOfItems {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

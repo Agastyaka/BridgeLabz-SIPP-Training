@@ -1,4 +1,4 @@
-public class avgPercentageInPcm {
+public class AvgPercentageInPcm {
 
     public static void main(String[] args) {
         float average = ((95+96+100)/3);

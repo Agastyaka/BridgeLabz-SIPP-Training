@@ -1,4 +1,4 @@
-public class distanceToKm {
+public class DistanceToKm {
 
     public static void main(String[] args) {
         double km = 10.8;

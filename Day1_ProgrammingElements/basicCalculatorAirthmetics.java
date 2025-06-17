@@ -1,5 +1,5 @@
 import java.util.*;
-public class basicCalculatorAirthmetics {
+public class BasicCalculatorAirthmetics {
 
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);

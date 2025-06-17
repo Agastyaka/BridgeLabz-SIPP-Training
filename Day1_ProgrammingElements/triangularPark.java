@@ -1,5 +1,5 @@
 import java.util.*;
-public class triangularPark {
+public class TriangularPark {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

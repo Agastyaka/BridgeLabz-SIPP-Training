@@ -1,5 +1,5 @@
 import java.util.*;
-public class noOfPenDIstributed {
+public class NoOfPenDIstributed {
 
     public static void main(String[] args) {
         int penNotDistributed=14%3;

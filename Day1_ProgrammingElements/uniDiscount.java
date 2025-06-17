@@ -1,5 +1,5 @@
 import java.util.*;
-public class uniDiscount {
+public class UniDiscount {
     public static void main(String[] args) {
         int fee = 125000;
         int discount = 10;

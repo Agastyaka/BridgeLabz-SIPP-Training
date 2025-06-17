@@ -1,5 +1,5 @@
 import java.util.*;
-public class volumeOfCylinder{
+public class VolumeOfCylinder{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter radius of cylinder");
