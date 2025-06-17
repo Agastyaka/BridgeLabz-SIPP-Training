@@ -1,5 +1,5 @@
 import java.util.*;
-public class fizzBuzzWhile {
+public class FizzBuzzWhile {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);

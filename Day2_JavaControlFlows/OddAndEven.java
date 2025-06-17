@@ -1,5 +1,5 @@
 import java.util.*;
-public class oddAndEven {
+public class OddAndEven {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);

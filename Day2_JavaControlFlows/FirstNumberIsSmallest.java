@@ -1,5 +1,5 @@
 import java.util.*;
-public class firstNumberIsSmallest {
+public class FirstNumberIsSmallest {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.*;
-public class rocketCounter {
+public class RocketCounter {
 
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);

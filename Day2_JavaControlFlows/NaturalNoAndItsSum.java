@@ -1,5 +1,5 @@
 import java.util.*;
-public class naturalNoAndItsSum {
+public class NaturalNoAndItsSum {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

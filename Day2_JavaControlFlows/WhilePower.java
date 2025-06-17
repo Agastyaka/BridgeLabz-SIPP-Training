@@ -1,5 +1,5 @@
 import java.util.*;
-public class whilePower {
+public class WhilePower {
 
    public static void main(String[] args) {
      Scanner scanner =new Scanner(System.in);

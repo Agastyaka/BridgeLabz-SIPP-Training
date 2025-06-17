@@ -1,5 +1,5 @@
 import java.util.*;
-public class youngAndTall {
+public class YoungAndTall {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);

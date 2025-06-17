@@ -1,5 +1,5 @@
 import java.util.*;
-public class sumOfNUm2 {
+public class SumOfNUm2 {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);

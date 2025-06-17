@@ -1,5 +1,5 @@
 import java.util.*;
-public class multiplicationTable6To9 {
+public class MultiplicationTable6To9 {
 
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);

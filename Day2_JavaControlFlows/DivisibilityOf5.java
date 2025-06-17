@@ -1,5 +1,5 @@
 import java.util.*;
-public class divisibilityOf5 {
+public class DivisibilityOf5 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

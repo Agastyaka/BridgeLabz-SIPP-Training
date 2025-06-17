@@ -1,5 +1,5 @@
 import java.util.*;
-public class sumOfNaturalNumBreak {
+public class SumOfNaturalNumBreak {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
