@@ -12,7 +12,7 @@ public class LargestAndSecond {
             if(index==maxDigit){
                 maxDigit*=2;
                  int[] temp = new int[maxDigit];
-                  for (int i = 0; i < digits.length; i++) {
+                  for (int i = 0; i <maxDigit; i++) {
                     temp[i] = digits[i];
                 }
                 digits = temp;

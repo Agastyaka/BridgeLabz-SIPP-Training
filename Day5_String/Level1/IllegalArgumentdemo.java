@@ -15,7 +15,7 @@ public static void handling(String s){
         System.err.println("exception of illegal Argument");
         System.err.println("error"+e.getMessage());
     }
-   
+
 }
 
     public static void main(String[] args) {
