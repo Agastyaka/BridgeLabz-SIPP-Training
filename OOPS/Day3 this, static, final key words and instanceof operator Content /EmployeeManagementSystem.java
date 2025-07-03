@@ -10,7 +10,7 @@ class employee{
         this.degination=degination;
         totalemployee++;
     }
-    public void totalnoofemploye(){
+    public static void totalnoofemploye(){
         System.out.println("total emplooye"+totalemployee);
     }
     public void display(){
@@ -29,6 +29,7 @@ public class EmployeeManagementSystem {
         if(employee1 instanceof employee){
             employee1.display();
         }
+        employee.totalnoofemploye();
         
     }
     
