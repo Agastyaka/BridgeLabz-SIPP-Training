@@ -45,6 +45,7 @@ public class LibraryBookSystem {
         book1.borrow();
         book1.display();
         book1.borrow();
+        System.out.println(book1);
 
 
         
