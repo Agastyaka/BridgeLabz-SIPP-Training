@@ -22,11 +22,11 @@ public class Student {
     }
 
     private void calculateGPA() {
-        if (grade.equals("A")) 
+        if (grade =="A")
         gpa = 4.0;
-        else if (grade.equals("B")) 
+        else if (grade=="B") 
         gpa = 3.0;
-        else if (grade.equals("C")) 
+        else if (grade=="C") 
         gpa = 2.0;
         else 
         gpa = 0.0;
