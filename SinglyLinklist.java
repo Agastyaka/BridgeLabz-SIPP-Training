@@ -106,18 +106,18 @@ public class SinglyLinklist {
         list.insertAtEnd(10);
         list.insertAtEnd(20);
         list.insertAtBeginning(5);
-        list.traverse();  // 5 10 20
+        list.traverse();  
 
         list.insertAtPosition(15, 3);
-        list.traverse();  // 5 10 15 20
+        list.traverse();  
 
         list.deleteAtBeginning();
-        list.traverse();  // 10 15 20
+        list.traverse();  
 
         list.deleteAtEnd();
-        list.traverse();  // 10 15
+        list.traverse();  
 
         list.deleteAtPosition(2);
-        list.traverse();  // 10
+        list.traverse();  
     }
 }
