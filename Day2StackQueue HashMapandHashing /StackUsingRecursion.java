@@ -4,6 +4,7 @@ public class StackUsingRecursion {
         if(!stack.isEmpty()){
             int top=stack.pop();
             sortstack(stack);
+            insertinsortedorder(stack, top);
 
         }
     }
@@ -30,7 +31,7 @@ public class StackUsingRecursion {
 
         System.out.println("Sorted Stack (Top -> Bottom):");
         while (!stack.isEmpty()) {
-            System.out.println(stack.pop());
+            System.out.print(stack.pop());
         }
         
     }
