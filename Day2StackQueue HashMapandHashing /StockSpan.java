@@ -4,7 +4,7 @@ public class StockSpan {
     Stack <Integer> stack=new Stack<>();
     int []span=new int[prices.length];
     for(int i=0;i<=prices.length-1;i++){
-        while (!stack.empty() && prices[stack.peek()] <= prices[i]) {
+        while (!stack.empty() &&prices[stack.peek()]<=prices[i]) {
             stack.pop();
             
         }
