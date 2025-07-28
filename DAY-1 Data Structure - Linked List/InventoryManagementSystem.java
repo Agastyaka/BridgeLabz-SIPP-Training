@@ -115,6 +115,46 @@ class Invontarymanagementlist{
         }
 
     }
+public void bubbleSortByName() {
+    if (head == null || head.next == null) return;
+
+    boolean sorted = false;
+
+    while (!sorted) {
+        sorted = true;
+        InvontaryNode current = head;
+
+        while (current.next != null) {
+            String name1 = current.itemname.toLowerCase();
+            String name2 = current.next.itemname.toLowerCase();
+
+            if (name1.compareTo(name2) > 0) {
+                swapData(current, current.next);
+                sorted = false;
+            }
+            current = current.next;
+        }
+    }
+}
+private void swapData(InvontaryNode a, InvontaryNode b) {
+    String tempName = a.itemname;
+    int tempID = a.itemid;
+    int tempQty = a.quantiy;
+    double tempPrice = a.price;
+
+    a.itemname = b.itemname;
+    a.itemid = b.itemid;
+    a.quantiy = b.quantiy;
+    a.price = b.price;
+
+    b.itemname = tempName;
+    b.itemid = tempID;
+    b.quantiy = tempQty;
+    b.price = tempPrice;
+}
+
+
+
     
 
 }
@@ -138,7 +178,9 @@ public class InventoryManagementSystem {
         list1.updatequantity(33, 2);
         list1.search("33");
         System.out.println("total cost "+list1.totalcost());
-        
+        list1.bubbleSortByName();
+        list1.displayinvontary(); 
+
 
         
 
