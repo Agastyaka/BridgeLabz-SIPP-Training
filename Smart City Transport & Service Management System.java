@@ -1,28 +1,28 @@
 public class workshop {
     public static void main(String[] args) {
-        // Arrays for different transport services
+        
         Bus[] buses = new Bus[2];
         Metro[] metros = new Metro[2];
         Taxi[] taxis = new Taxi[2];
         EVChargingStation[] stations = new EVChargingStation[2];
 
-        // Create Bus objects
+       
         buses[0] = new Bus("B101", "John");
         buses[1] = new Bus("B102", "Alice");
 
-        // Create Metro objects
+        
         metros[0] = new Metro("M201", "Robert");
         metros[1] = new Metro("M202", "Emma");
 
-        // Create Taxi objects
+        
         taxis[0] = new Taxi("T301", "David");
         taxis[1] = new Taxi("T302", "Sophia");
 
-        // Create EV Charging Station objects
+       
         stations[0] = new EVChargingStation("EV01", "Downtown");
         stations[1] = new EVChargingStation("EV02", "Airport");
 
-        // Display information
+        
         System.out.println("------ Bus Info ------");
         for (Bus b : buses) {
             b.displayInfo();
@@ -45,13 +45,13 @@ public class workshop {
     }
 }
 
-// Interface
+
 interface TransportService {
     void displayInfo();
     void scheduleService(String time);
 }
 
-// Abstract class for common vehicle features
+
 abstract class Vehicle implements TransportService {
     String id;
     String driverName;
@@ -62,7 +62,7 @@ abstract class Vehicle implements TransportService {
     }
 }
 
-// Bus class
+
 class Bus extends Vehicle {
     Bus(String id, String driverName) {
         super(id, driverName);
@@ -77,7 +77,7 @@ class Bus extends Vehicle {
     }
 }
 
-// Metro class
+
 class Metro extends Vehicle {
     Metro(String id, String driverName) {
         super(id, driverName);
@@ -92,7 +92,7 @@ class Metro extends Vehicle {
     }
 }
 
-// Taxi class
+
 class Taxi extends Vehicle {
     Taxi(String id, String driverName) {
         super(id, driverName);
@@ -107,7 +107,7 @@ class Taxi extends Vehicle {
     }
 }
 
-// EV Charging Station class (not a vehicle)
+
 class EVChargingStation implements TransportService {
     String stationId;
     String location;
