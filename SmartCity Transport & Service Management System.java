@@ -1,4 +1,4 @@
-public class workshop {
+public class  {
     public static void main(String[] args) {
         
         Bus[] buses = new Bus[2];
